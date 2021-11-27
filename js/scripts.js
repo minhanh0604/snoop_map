@@ -15,7 +15,7 @@ const map = new mapboxgl.Map({
 
 
 // Load local json file
-$.getJSON("dogparks_smell_test.json", function(json_data) {
+$.getJSON("json/dogparks_smell_test.json", function(json_data) {
     smell_data=json_data;
 });
 
