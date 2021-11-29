@@ -4,7 +4,34 @@ body {
 
 body h1 {
     text-align: left;
-    color: #B0947D;
+    color: #011936;
+}
+
+/* Nav Bar */
+.topnav {
+  overflow: hidden;
+  /* background-color: #AEB1D2; */
+}
+
+.topnav a {
+  float: left;
+  color: #011936;
+  text-align: center;
+  padding: 25px 40px;
+  text-decoration: none;
+  font-size: 17px;
+  border-bottom: 2px solid transparent;
+}
+
+.topnav a:hover {
+  /* background-color: #B0947D; */
+  color: #011936;
+  border-bottom: 2px solid #AEB1D2;
+}
+
+.topnav a.active {
+  /* background-color: #011936; */
+  color: #B0947D;
 }
 
 
