@@ -7,6 +7,38 @@ body h1 {
     color: #011936;
 }
 
+h2{
+    font-family: avenir;
+    font-size: 38px;
+    line-height: 34px;
+    color: #B0947D;
+}
+
+h3{
+    font-family: avenir;
+    font-size: 26px;
+    line-height: 36px;
+    color: #011936;
+}
+
+h4{
+    font-family: avenir;
+    font-size: 22px;
+    line-height: 36px;
+}
+
+p{
+    font-family: avenir;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.homePage_text{
+    margin: 0 0 1.45rem;
+    padding: 40px 140px 40px 140px;
+    text-align: center;
+}
+
 /* home page image */
 .text_centered {
     font-family: avenir;
@@ -75,6 +107,7 @@ body h1 {
     color: #B0947D;
 }
 
+
 /* MAPBOX */
 .map {
     position: absolute;
@@ -99,7 +132,7 @@ body h1 {
     width: 260px;
 }
 
-.mapboxgl-popup-content h3 {
+.mapboxgl-popup-content h4 {
     background: #465362;
     color: #F3E4DE;
     margin: 0;
@@ -108,12 +141,6 @@ body h1 {
     margin-top: -15px;
     margin-left: -10px;
     margin-right: -10px;
-}
-
-.mapboxgl-popup-content h4 {
-    margin: 0;
-    padding: 10px;
-    font-weight: 400;
 }
 
 .mapboxgl-popup-content div {
@@ -133,8 +160,6 @@ map.addSource('places', {
     type: 'geojson',
         data: stores
 }
-
-);
 
 .marker {
     border: none;

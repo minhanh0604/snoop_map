@@ -55,7 +55,7 @@ $.ajax({
                 color: "#B0947D",
                 draggable: true
             }).setLngLat(park_pos)
-            .setPopup(new mapboxgl.Popup().setHTML("<h3>" + park_name + "</h3>" + "<p>" + park_description + "</p>")) // add popup
+            .setPopup(new mapboxgl.Popup().setHTML("<h4>" + park_name + "</h4>" + "<p>" + park_description + "</p>")) // add popup
             // .setPopup(popup) // sets a popup on this marker
             .addTo(map);
         marker.setDraggable(false);
