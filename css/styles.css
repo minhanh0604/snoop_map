@@ -7,33 +7,72 @@ body h1 {
     color: #011936;
 }
 
+/* home page image */
+.text_centered {
+    font-family: avenir;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 58px;
+    color: #011936;
+    position: absolute;
+    top: 48%;
+    left: 73%;
+    display: block;
+    transform: translate(-50%, -50%);
+}
+
+.homePage_container {
+    position: relative;
+    text-align: left;
+    color: #F3E4DE;
+}
+
+.homePage_container .button1 {
+    font-family: avenir;
+    position: absolute;
+    top: 72%;
+    left: 66%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #B0947D;
+    color: #F3E4DE;
+    font-size: 18px;
+    padding: 22px 60px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.homePage_container .button1:hover {
+    background-color: #AEB1D2;
+}
+
 /* Nav Bar */
 .topnav {
-  overflow: hidden;
-  /* background-color: #AEB1D2; */
+    overflow: hidden;
 }
 
 .topnav a {
-  float: left;
-  color: #011936;
-  text-align: center;
-  padding: 25px 40px;
-  text-decoration: none;
-  font-size: 17px;
-  border-bottom: 2px solid transparent;
+    float: left;
+    color: #011936;
+    text-align: center;
+    padding: 25px 40px;
+    text-decoration: none;
+    font-size: 17px;
+    border-bottom: 2px solid transparent;
 }
 
 .topnav a:hover {
-  /* background-color: #B0947D; */
-  color: #011936;
-  border-bottom: 2px solid #AEB1D2;
+    /* background-color: #B0947D; */
+    color: #011936;
+    border-bottom: 2px solid #AEB1D2;
 }
 
 .topnav a.active {
-  /* background-color: #011936; */
-  color: #B0947D;
+    /* background-color: #011936; */
+    color: #B0947D;
 }
-
 
 /* MAPBOX */
 .map {
@@ -42,7 +81,7 @@ body h1 {
     height: 860px;
     top: 0;
     bottom: 0;
-  }
+}
 
 .mapboxgl-popup {
     max-width: 200px;
@@ -50,49 +89,51 @@ body h1 {
 
 /* Marker tweaks */
 .mapboxgl-popup-close-button {
-  display: none;
+    display: none;
 }
 
 .mapboxgl-popup-content {
-  font: 400 16px/24px 'avenir', 'avenir', sans-serif;
-  padding: 0;
-  width: 260px;
+    font: 400 16px/24px 'avenir', 'avenir', sans-serif;
+    padding: 0;
+    width: 260px;
 }
 
 .mapboxgl-popup-content h3 {
-  background: #465362;
-  color: #F3E4DE;
-  margin: 0;
-  padding: 20px;
-  font-weight: 700;
-  margin-top: -15px;
-  margin-left: -10px;
-  margin-right: -10px;
+    background: #465362;
+    color: #F3E4DE;
+    margin: 0;
+    padding: 20px;
+    font-weight: 700;
+    margin-top: -15px;
+    margin-left: -10px;
+    margin-right: -10px;
 }
 
 .mapboxgl-popup-content h4 {
-  margin: 0;
-  padding: 10px;
-  font-weight: 400;
+    margin: 0;
+    padding: 10px;
+    font-weight: 400;
 }
 
 .mapboxgl-popup-content div {
-  padding: 10px;
+    padding: 10px;
 }
 
-.mapboxgl-popup-anchor-top > .mapboxgl-popup-content {
-  margin-top: 15px;
+.mapboxgl-popup-anchor-top>.mapboxgl-popup-content {
+    margin-top: 15px;
 }
 
-.mapboxgl-popup-anchor-top > .mapboxgl-popup-tip {
-  border-bottom-color: #465362;
+.mapboxgl-popup-anchor-top>.mapboxgl-popup-tip {
+    border-bottom-color: #465362;
 }
 
 /* MARKER Custom */
 map.addSource('places', {
-  type: 'geojson',
-  data: stores
-});
+    type: 'geojson',
+        data: stores
+}
+
+);
 
 .marker {
     border: none;
