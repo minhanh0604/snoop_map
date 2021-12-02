@@ -7,58 +7,59 @@ body h1 {
     color: #011936;
 }
 
-h2{
+h2 {
     font-family: avenir;
     font-size: 38px;
     line-height: 34px;
     color: #B0947D;
 }
 
-h3{
+h3 {
     font-family: avenir;
     font-size: 26px;
     line-height: 36px;
     color: #011936;
 }
 
-h4{
+h4 {
     font-family: avenir;
     font-size: 22px;
     line-height: 36px;
 }
 
-p{
+p {
     font-family: avenir;
     font-size: 16px;
     line-height: 24px;
 }
 
-.homePage_text{
-    margin: 0 0 1.45rem;
-    padding: 40px 140px 40px 140px;
-    text-align: center;
+/* home page image */
+.homePage_container {
+    position: relative;
+    text-align: left;
+    color: #F3E4DE;
+    padding: 20px 0 0 0;
 }
 
 /* home page image */
 .text_centered {
     font-family: avenir;
     font-weight: bold;
-    font-size: 32px;
-    line-height: 46px;
+    font-size: 2vw;
+    line-height: 3.2vw;
     color: #011936;
     position: absolute;
     top: 38%;
     left: 50%;
     display: block;
-    padding: 0 100px 0 0;
+    padding: 0 10% 0 0;
     /* transform: translate(-50%, -50%); */
 }
 
-.homePage_container {
-    position: relative;
-    text-align: left;
-    color: #F3E4DE;
-    padding: 20px 0 0 0;
+.homePage_text{
+    margin: 0 0 1.45rem;
+    padding: 40px 140px 40px 140px;
+    text-align: center;
 }
 
 .homePage_container .button1 {
@@ -76,9 +77,15 @@ p{
     text-align: center;
 }
 
-
 .homePage_container .button1:hover {
     background-color: #AEB1D2;
+}
+
+/* lower image section text */
+.homePage_text {
+    margin: 0 0 1.45rem;
+    padding: 40px 140px 40px 140px;
+    text-align: center;
 }
 
 /* Nav Bar */
@@ -106,7 +113,6 @@ p{
     /* background-color: #011936; */
     color: #B0947D;
 }
-
 
 /* MAPBOX */
 .map {
