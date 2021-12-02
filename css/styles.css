@@ -143,13 +143,21 @@ p {
     color: #B0947D;
 }
 
+/* Map page Title */
+.map_title{
+    margin-left: 20px;
+}
+
 /* MAPBOX */
 .map {
     position: absolute;
-    width: 100%;
+    width: 96%;
     height: 860px;
     top: 0;
     bottom: 0;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 40px;
 }
 
 .mapboxgl-popup {
