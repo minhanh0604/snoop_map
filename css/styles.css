@@ -1,5 +1,35 @@
-body {
+html, body {
     font-family: avenir;
+    margin: 0px;
+}
+
+/* Message banner */
+.msg_banner{
+    background: #011936
+}
+
+.msg_banner_content{
+    padding: 10px;
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.msg_banner_text{
+    flex-grow: 1;
+    line-height: 1.4;
+}
+
+.msg_banner_close{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.msg_banner_text,
+.msg_banner_close > span {
+    color: #F3E4DE;
 }
 
 body h1 {
@@ -67,7 +97,6 @@ p {
     position: inherit;
     top: 110%;
     left: 0%;
-    /* transform: translate(-50%, -50%); */
     background-color: #B0947D;
     color: #F3E4DE;
     font-size: 18px;

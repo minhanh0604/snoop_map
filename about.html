@@ -17,6 +17,9 @@
     <!-- linking Jquery -->
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
 
+    <!-- Google icon -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
     <!-- MapBox -->
     <script src='https://api.mapbox.com/mapbox-gl-js/v2.6.0/mapbox-gl.js'></script>
     <link href='https://api.mapbox.com/mapbox-gl-js/v2.6.0/mapbox-gl.css' rel='stylesheet' />
@@ -27,8 +30,22 @@
     <header></header>
     <section></section>
 
+    <!-- Message developing -->
+    <div class="msg_banner">
+        <div class="msg_banner_content">
+            <div class="msg_banner_text">
+                <p style="color: #F3E4DE">Please pardon my buggy website. The project is still under developing, stay tune for more updates.</p>
+            </div>
+            <button class="msg_banner_close" type="button" name="msg_banner_close" onclick="close_msgbanner()">
+                <span class="material-icons">
+                    close
+                </span>
+            </button>
+        </div>
+    </div>
+
     <!-- Navigation menu bar -->
-    <a href="index.html"> <img src="images/snoop_letterlogo@2x.png" alt="Snoop Logo" style="float: left; width: 190px; padding: 10px 10px 0 0;"> </a>
+    <a href="index.html"> <img src="images/snoop_letterlogo@2x.png" alt="Snoop Logo" style="float: left; width: 190px; padding: 10px 10px 0 0; margin-left: 20px;"> </a>
     <div class="topnav">
         <a href="index.html">Home</a>
         <a href="snoop_map.html">Dog Parks</a>

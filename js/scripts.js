@@ -3,7 +3,6 @@ var parks;
 var smells;
 var smell_data;
 
-
 // MAPBOX API
 mapboxgl.accessToken = 'pk.eyJ1IjoibWluaGFuaDA2MDQiLCJhIjoiY2t3M3JvYWdlNmJ4MDJvbXRuNHNsb2tjaiJ9.EfBNsJV4cSS6qOVcSBOyvg';
 const map = new mapboxgl.Map({
@@ -61,3 +60,9 @@ $.ajax({
         marker.setDraggable(false);
     }
 });
+
+
+// Message banner close button
+function close_msgbanner(){
+    document.querySelector(".msg_banner").style.display = 'none';
+}
