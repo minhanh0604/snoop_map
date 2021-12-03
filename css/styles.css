@@ -9,9 +9,10 @@ html, body {
 }
 
 .msg_banner_content{
-    padding: 10px;
+    padding: 20px;
     max-width: 800px;
     margin: 0 auto;
+    margin-bottom: 10px;
     display: flex;
     align-items: center;
 }
@@ -35,29 +36,35 @@ html, body {
 body h1 {
     text-align: left;
     color: #011936;
+    font-size: 40px;
+    line-height: 48px;
 }
 
-h2 {
+body h2 {
     font-family: avenir;
     font-size: 38px;
     line-height: 34px;
     color: #B0947D;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
-h3 {
+body h3 {
     font-family: avenir;
     font-size: 26px;
     line-height: 36px;
     color: #011936;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
-h4 {
+body h4 {
     font-family: avenir;
-    font-size: 22px;
-    line-height: 36px;
+    font-size: 20px;
+    line-height: 32px;
 }
 
-p {
+body p {
     font-family: avenir;
     font-size: 16px;
     line-height: 24px;
@@ -68,28 +75,24 @@ p {
     position: relative;
     text-align: left;
     color: #F3E4DE;
-    padding: 20px 0 0 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 /* home page image */
 .text_centered {
     font-family: avenir;
     font-weight: bold;
-    font-size: 2vw;
-    line-height: 3.2vw;
+    font-size: 3.4vw;
+    line-height: 5vw;
     color: #011936;
     position: absolute;
-    top: 38%;
+    top: 30%;
     left: 50%;
     display: block;
-    padding: 0 10% 0 0;
+    padding: 0 5% 0 0;
     /* transform: translate(-50%, -50%); */
-}
-
-.homePage_text{
-    margin: 0 0 1.45rem;
-    padding: 40px 140px 40px 140px;
-    text-align: center;
 }
 
 .homePage_container .button1 {
@@ -100,26 +103,37 @@ p {
     background-color: #B0947D;
     color: #F3E4DE;
     font-size: 18px;
-    padding: 16px 60px;
+    padding: 5px 80px;
     border: none;
     cursor: pointer;
     text-align: center;
 }
-
 .homePage_container .button1:hover {
     background-color: #AEB1D2;
 }
 
 /* lower image section text */
-.homePage_text {
+.homePage_text0 {
     margin: 0 0 1.45rem;
-    padding: 40px 140px 40px 140px;
+    padding: 40px 140px 10px 140px;
     text-align: center;
+}
+
+.homePage_text1_container{
+    background-color: #F3E4DE;
+    padding: auto;
+    margin: auto;
+}
+.homePage_text1{
+    text-align: center;
+    padding: 40px 0 20px 0;
+    color: #011936;
 }
 
 /* Nav Bar */
 .topnav {
     overflow: hidden;
+    margin-bottom: 10px;
 }
 
 .topnav a {
@@ -136,6 +150,7 @@ p {
     /* background-color: #B0947D; */
     color: #011936;
     border-bottom: 2px solid #AEB1D2;
+    text-decoration: none !important
 }
 
 .topnav a.active {
@@ -158,6 +173,7 @@ p {
     margin-left: 40px;
     margin-right: 40px;
     margin-bottom: 40px;
+    margin-top: 40px;
 }
 
 .mapboxgl-popup {
