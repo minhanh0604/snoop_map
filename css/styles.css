@@ -51,10 +51,10 @@ body h1 {
 body h2 {
     font-family: avenir;
     font-size: 38px;
-    line-height: 34px;
+    line-height: 48px;
     color: #B0947D;
     margin-top: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 body h3 {
@@ -164,6 +164,18 @@ body p {
 .topnav a.active {
     /* background-color: #011936; */
     color: #B0947D;
+}
+
+.images_0{
+    padding: 20px;
+}
+
+/* about page list column */
+.list_items{
+    font-size: 18px;
+    line-height: 30px;
+    padding: 0 0 0 30px;
+    margin-left: 20px;
 }
 
 /* Map page Title */
